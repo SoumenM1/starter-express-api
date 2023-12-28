@@ -9,6 +9,9 @@ mongoose.connect('mongodb+srv://soumen:k5Uu4iM5vBDdfvqv@cluster0.c5spa4r.mongodb
 
 app.use(express.json());
 
+app.get('/',(req,res)=>{
+  res.status(200).json({msg:"...Well Come..."})
+})
 app.use('/api', userRoutes);
 
 app.listen(PORT, () => {
