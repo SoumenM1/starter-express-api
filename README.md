@@ -23,8 +23,8 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://gitlab.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/SoumenM1/starter-express-api.git
+   cd starter-express-api
   
     npm install
     npm start
